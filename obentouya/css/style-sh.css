@@ -1,0 +1,189 @@
+@charset "utf-8";
+
+	/* 959px以下に適用されるCSS（タブレット用） */
+/* @media screen and (max-width: 959px) {
+} */
+
+/* 480px以下に適用されるCSS（スマホ用） */
+/* @media screen and (max-width: 480px) {
+} */
+
+/* スマホ画面CSS　8/18未着手 footer以外のサイズ・menuや購入部分のレイアウトを変更*/
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans JP";
+    font-size: 12svw;
+}
+
+
+
+/* header部分 */
+.header {
+    height: 20vh;
+    width: 100%;
+    background-color: #4a3cb3;
+}
+.hero {
+    display: flex;
+    margin: auto 3% auto 3%;
+    align-items: center; 
+    width: 100%;
+}
+
+/* 画像を小さくするためのスタイル */
+.small-image {
+    max-width: 30%; /* 新しい幅を指定 */
+    max-height: 70%; /* 高さを自動調整 */
+}
+
+#logo  {
+    color: #d50000;
+    text-shadow: 3px 4px 2px #ffffff;
+    font-size: 19px;
+    width: 100%;
+
+}
+
+#logo span {
+    color: white;
+    text-shadow: 3px 4px 2px #d50000;
+    font-size: 40px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+
+
+/* ナビ部分 */
+
+.menu {
+    text-align:center;
+}
+
+.menu ul {
+    display:inline-block;
+    grid-template-columns:  1fr 1fr;
+    grid-template-rows: auto auto;
+    margin: 36px 2px;
+    padding: 0;
+}
+
+.menu li {
+    float:left;
+}
+.menu li + li {
+    margin-left:20px;
+}
+
+
+
+
+
+/* address部分 */
+.adress-map{
+    margin-top: 50vw;
+
+    font-size: 50%;
+}
+
+dl {
+    text-align: center;
+    margin: 50px auto 0 auto;
+}
+
+dt {
+    margin-top: 20px ;
+    width: fit-content;
+    border-radius: 70px;
+    background-color: #3cb371;
+    padding: 20px;
+    text-align: center;
+    font-size: 10vw;
+    color: #d50000;
+    text-shadow: 3px 3px 1px #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+dd {
+    margin-top: 10px;
+}
+
+.Business-dya p {
+    text-align: center;
+    margin: 10px auto 0 auto;
+}
+
+.Business-dya p span {
+    font-size: 5vw;
+        margin-top: 0;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid #3cb371;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+th, td {
+    padding: 2px 8px;
+    border-bottom: 1px solid #3cb371;
+}
+th {
+    background-color: #3cb371;
+}
+td {
+    border-left: 1px solid #3cb371;
+    text-align: center
+}
+    tr:last-child th,
+    tr:last-child td {
+    border-bottom: none;
+}
+
+
+#map-container {
+    text-align: center;
+    width: 100%;
+    height: 50%;
+    margin: auto; /* 横方向に中央揃え */
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 640px) {
+    nav {
+        display: block;
+    }    
+}
+
+
+address {
+    margin: auto;
+    width: fit-content;
+    display: block;
+    font-weight: bold;
+    font-size: 6vw;
+    margin-top: 50px;
+}
+
+
+address span {
+    font-size: 5vw;
+    display: inline-block;
+}
+
+/* footer部分 */
+footer {
+    /* color: white; */
+    text-align: center;
+    margin: 50px auto 30px auto;
+    background-color: #3cb371;
+    font-size: 15px;
+}
