@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-	/* 959px以下に適用されるCSS（タブレット用） */
+/* 959px以下に適用されるCSS（タブレット用） */
 /* @media screen and (max-width: 959px) {
 } */
 
@@ -64,7 +64,7 @@ body {
     text-align:center;
 }
 
-.menu ul {
+.menu nav ul {
     display:inline-block;
     grid-template-columns:  1fr 1fr;
     grid-template-rows: auto auto;
@@ -72,12 +72,12 @@ body {
     padding: 0;
 }
 
-.menu li {
+.menu nav li {
     float:left;
 }
-.menu li + li {
+/* .menu li + li {
     margin-left:20px;
-}
+} */
 
 
 
