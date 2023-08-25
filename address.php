@@ -5,7 +5,7 @@
             <dt><strong>営 業 日</strong></dt>
             <dd>
                 <p><strong>営業時間: 9時〜20時</strong><br>
-                    <span>※木曜日は休み、月曜日は午前中のみ営業</span></p>
+                    <span>※木曜日は休み、月曜日は14時までの営業</span></p>
             </dd>
         </dl>
             
@@ -22,24 +22,24 @@
                     <th>日</th>
                 </tr>
                 <tr>
-                    <td>午　前</td>
+                    <td>9時‐14時</td>
                     <td>●</td>
                     <td>●</td>
                     <td>●</td>
                     <td>×</td>
                     <td>●</td>
                     <td>●</td>
-                    <td><span>●</span></td>
+                    <td>●</td>
                 </tr>
                 <tr>
-                    <td>午　後</td>
+                    <td>15時-20時</td>
                     <td>×</td>
                     <td>●</td>
                     <td>●</td>
-                    <td><span>×</span></td>
+                    <td>×</td>
                     <td>●</td>
-                    <td><span>●</span></td>
-                    <td><span>●</span></td>
+                    <td>●</td>
+                    <td>●</td>
                 </tr>
             </table>
         </div> 
