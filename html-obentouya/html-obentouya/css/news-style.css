@@ -1,0 +1,46 @@
+html,body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header {
+    background-color: #75e99e;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.news-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+footer{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-style: 1rem;
+    background-color: rgb(111, 213, 111);
+}
+.b-radius {
+    width: 300px; /* ボックスの横幅を指定 */
+    height: 150px; /* ボックスの高さを指定 */
+    border: 2px solid #b20000; /* 境界線を実線で指定 */
+    text-align: center; /* テキストを中央寄せに指定 */
+    border-radius: 10px; /* ボックスの四つ角を丸くする */
+    }
+.b-radius2 {
+    width: 300px; /* ボックスの横幅を指定 */
+    height: 110px; /* ボックスの高さを指定 */
+        border: 2px solid #b20000; /* 境界線を実線で指定 */
+        text-align: center; /* テキストを中央寄せに指定 */
+        border-radius: 10px; /* ボックスの四つ角を丸くする */
+        }
