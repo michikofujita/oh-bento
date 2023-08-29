@@ -1,14 +1,30 @@
 <header>
-    <div class="hero">
-        <img src="images/img08.png" alt="お店ロゴ" class="small-image">
-        <h1 id="logo"><span>OH! 弁当屋</span><br>幻のネット限定 現地払い</h1>
+    <div class="flex">
+        <div class="hero">
+            <img src="images/img08.png" alt="お店ロゴ" class="small-image">
+            <h1 id="logo"><span>OH! 弁当屋</span><br>幻のネット限定 現地払い</h1>
+        </div>
+        <!-- パソコンサイズ　ややこしくてごめーん -->
+        <div class="for-sh">
+            <nav>
+                <ul>
+                    <li><a href="#"><b>お知らせ</b></a></li>
+                    <li><a href="#"><b>メニュー</b></a></li>
+                    <li><a href="cash.php"><b>お支払い方法</b></a></li>
+                    <li><a href="#"><b>お問い合わせ<b></a></li>
+                </ul>
+            </nav>
+        </div>
     </div>
+    <!-- スマホサイズ -->
+    <div class="for-pc"> 
         <nav>
             <ul>
-                <li><a href="#">お知らせ</a></li>
-                <li><a href="#">メニュー</a></li>
-                <li><a href="cash.php">お支払い方法</a></li>
-                <li><a href="#">お問い合わせ</a></li>
+                <li><a href="#"><b>お知らせ</b></a></li>
+                <li><a href="#"><b>メニュー</b></a></li>
+                <li><a href="cash.php"><b>お支払い方法</b></a></li>
+                <li><a href="#"><b>お問い合わせ<b></a></li>
             </ul>
         </nav>
+    </div>
 </header>

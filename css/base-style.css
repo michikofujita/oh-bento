@@ -1,4 +1,11 @@
 @charset "utf-8";
+.for-sh {
+    display: none;
+}
+.for-pc {
+    display: block;
+}
+
 
 body {
     margin: 0;
@@ -20,7 +27,6 @@ header .hero {
 }
 
 #logo  {
-    width: 49%;
     color: #d50000;
     text-shadow: 3px 4px 2px #ffffff;
     font-size: 20px;
@@ -173,8 +179,39 @@ footer {
 
 /* 画面サイズ変更 */
 
+@media screen and (min-width: 1000px) {
+    .for-sh {
+        display: block;
+    }
+    .for-pc {
+        display: none;
+    }
+    .flex {
+        display: flex;
+    }
+    header .hero {
+        background-color: #3cb371;
+        width: 100%;
+        height: 150px;
+    }
+} 
 
-@media screen and (max-width: 1000px) {
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 999px) {
+    .hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .business {
         font-size: 1rem;
     }   
@@ -197,5 +234,14 @@ footer {
     }   
     .business th, .business td {
         padding: 10px 15px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    #logo span {
+        font-size: 1.8rem;
+    }
+    #logo {
+        font-size: 0.9rem;
     }
 }
