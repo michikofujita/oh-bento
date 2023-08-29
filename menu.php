@@ -7,10 +7,10 @@
         <div class="menu">
             <nav>
                 <ul>
-                    <li><a href="#">お知らせ</a></li>
+                    <li><a href="./news.php">お知らせ</a></li>
                     <li><a href="#">メニュー</a></li>
                     <li><a href="menu.php">お支払い方法</a></li>
-                    <li><a href="#">お問い合わせ</a></li>
+                    <li><a href="https://forms.gle/XxQXLUEwLa4BXu4GA"></a>お問い合わせ</a></li>
                 </ul>
             </nav>
         </div>
