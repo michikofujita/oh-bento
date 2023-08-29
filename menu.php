@@ -1,5 +1,5 @@
 <header>
-    <div class="flex">
+    <div class="header-flex">
         <div class="hero">
             <img src="images/img08.png" alt="お店ロゴ" class="small-image">
             <h1 id="logo"><span>OH! 弁当屋</span><br>幻のネット限定 現地払い</h1>
