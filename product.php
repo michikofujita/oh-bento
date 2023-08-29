@@ -1,5 +1,4 @@
-<?php require 'header.php'; ?>
-<?php require 'menu.php'; ?>
+
 <form action="product.php" method="post">
 商品検索
 <input type="text" name="keyword">
@@ -41,4 +40,4 @@ foreach ($sql as $row) {
 }
 echo '</table>';
 ?>
-<?php require 'footer.php'; ?>
+
