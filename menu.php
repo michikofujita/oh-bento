@@ -5,11 +5,9 @@
     </div>
         <nav>
             <ul>
-                <li><a href="news.php">お知らせ</a></li>
-                <li><a href="#">メニュー</a></li>
-                <li><a href="cash.php">お支払い方法</a></li>
-                <li><a href="#">お問い合わせ</a></li>
-                <li><a href="https://forms.gle/XxQXLUEwLa4BXu4GA"></a>お問い合わせ</a></li>
+                <li><a href="news.php"><b>お知らせ</b></a></li>
+                <li><a href="#"><b>メニュー</b></a></li>
+                <li><a href="cash.php"><b>お支払い方法</b></a></li>
+                <li><a href="https://forms.gle/XxQXLUEwLa4BXu4GA"><b>お問い合わせ</b></a></li>
             </ul>
-        </nav>
 </header>
