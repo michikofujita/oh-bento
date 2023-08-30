@@ -224,3 +224,8 @@ p.nedan {
 element.style {
   font-weight: bold;
 }
+
+h3 {
+    text-align:center;
+    padding:20px 0;
+}
