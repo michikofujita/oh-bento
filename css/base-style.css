@@ -1,0 +1,253 @@
+@charset "utf-8";
+.for-sh {
+    display: none;
+}
+.for-pc {
+    display: block;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans JP";
+}
+
+header .hero {
+    background-color: #3cb371;
+    width: 100%;
+    height: 150px;
+}
+
+
+.hero {
+    display: flex;
+    align-items: center;
+}
+
+#logo  {
+    color: #d50000;
+    text-shadow: 3px 4px 2px #ffffff;
+    font-size: 20px;
+    margin: auto 0 auto 20px;
+}
+
+#logo span {
+    color: white;
+    text-shadow: 3px 4px 2px #d50000;
+    font-size: 40px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.small-image {
+    max-width: 80%; 
+    max-height: 70%; 
+}
+
+
+/* menu部分 */
+nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    margin: 0 auto 50px auto;
+    padding: 0;
+}
+
+nav ul li {
+    padding: 0 2.5px 3px 2.5px;
+}
+
+nav li, nav a {
+    display: block;
+
+}
+
+nav a {
+    text-decoration: none;
+    text-align: center;
+    background-color: #85edb4; 
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #000;
+    text-shadow: 3px 2px 2px #d7fc67
+    
+}
+
+nav a:hover {
+    background-color: #f8be21; 
+    color: #1202bc;
+    text-shadow: 3px 2px 2px #c9c2fb
+
+}
+
+
+/* address部分 */
+dl {
+    text-align: center;
+    margin: 50px auto 0 auto;
+}
+
+dt {
+    margin-top: 20px ;
+    width: fit-content;
+    border-radius: 50%;
+    background-color: #3cb371;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: #d50000;
+    text-shadow: 3px 3px 1px #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+dd {
+    margin-top: 10px;
+}
+
+p {
+    text-align: center;
+    margin: 10px auto 0 auto;
+}
+
+p span {
+    font-size: 23px;
+    margin-top: 0;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid #3cb371;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+th, td {
+    padding: 10px 25px;
+    border-bottom: 1px solid #3cb371;
+}
+th {
+    background-color: #3cb371;
+}
+td {
+    border-left: 1px solid #3cb371;
+    text-align: center
+}
+    tr:last-child th,
+    tr:last-child td {
+    border-bottom: none;
+}
+
+
+#map-container {
+    text-align: center;
+    width: 100%;
+    height: 450px;
+    margin: auto; /* 横方向に中央揃え */
+    margin-top: 10px;
+}
+
+address {
+    margin: auto;
+    width: fit-content;
+    display: block;
+    font-weight: bold;
+}
+
+
+address span {
+    font-size: 25px;
+    display: inline-block;
+}
+
+/* footer部分 */
+footer {
+    /* color: white; */
+    text-align: center;
+    margin: 50px auto 30px auto;
+    background-color: #3cb371;
+    font-size: 20px;
+}
+
+
+
+/* 画面サイズ変更 */
+@media screen and (min-width: 1000px) {
+    header .hero {
+        margin-left: 5%;
+        width: auto; 
+    }
+    
+    .for-sh {
+        display: block;
+    }
+    .for-pc {
+        display: none;
+    }
+    .header-flex {
+        display: flex;
+        background-color: #3cb371;
+        height: 150px;
+    }
+
+
+    nav ul {
+        display: flex;
+        margin: 0 auto 50px auto;
+        padding: 0;
+    }
+    
+    
+    .business {
+        font-size: 1.5rem;
+    }   
+    .business th, .business td {
+        padding: 10px 23px;
+    }  
+} 
+
+
+@media screen and (max-width: 999px) {
+    .hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .business {
+        font-size: 1rem;
+    }   
+    .business th, .business td {
+        padding: 10px 23px;
+    }  
+}
+
+
+@media screen and (max-width: 640px) {
+    nav {
+        display: block;
+    }    
+}
+
+
+@media screen and (max-width: 599px) {
+    .business {
+        font-size: 0.7rem;
+    }   
+    .business th, .business td {
+        padding: 10px 15px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    #logo span {
+        font-size: 1.8rem;
+    }
+    #logo {
+        font-size: 0.9rem;
+    }
+}
