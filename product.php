@@ -1,3 +1,7 @@
+<?php require 'header.php'; ?>
+<?php require 'menu.php'; ?>
+
+
 <?php
 session_start();
 
@@ -170,7 +174,7 @@ $count = isset($_GET['id']) ? htmlspecialchars($_GET['id'], ENT_QUOTES, 'utf-8')
     <img src="images/img9<?= $count; ?>.png" width="250px" height="200px">
         <div class="item-body">
             <div>
-                <?= $name; ?>ごぼうの唐揚げ
+                <?= $name; ?>ごぼうの天ぷら
             </div>
             <p class="nedan">
                 <?= $price; ?>120円
@@ -190,7 +194,7 @@ $count = isset($_GET['id']) ? htmlspecialchars($_GET['id'], ENT_QUOTES, 'utf-8')
     <img src="images/img10<?= $count; ?>.png" width="250px" height="200px">
         <div class="item-body">
             <div>
-                <?= $name; ?>ニンニクチップ
+                <?= $name; ?>フライドガーリック
             </div>
             <p class="nedan">
                 <?= $price; ?>12円
@@ -210,10 +214,110 @@ $count = isset($_GET['id']) ? htmlspecialchars($_GET['id'], ENT_QUOTES, 'utf-8')
     <img src="images/img11<?= $count; ?>.png" width="250px" height="200px">
         <div class="item-body">
             <div>
-                <?= $name; ?>貝
+                <?= $name; ?>つぶ焼き
             </div>
             <p class="nedan">
                 <?= $price; ?>50円
+            </p>
+            <!-- <div class="item-form"> -->
+            <form action="cart.php" method="POST" class="item-form">
+                <input type="hidden" name="name" value="<?= $name; ?>">
+                <input type="hidden" name="price" value="<?= $price; ?>">
+                <!-- <input type="text" value="1"> -->
+                <input type="text" class="kosuu" value="1" name="count">
+                <button type="submit" class="btn-sm btn-blue">カートに入れる</button>
+            </form>
+            <!-- </div>end item-form -->
+        </div><!-- end item-body-->
+    </li>
+    <li class="shop">
+    <img src="images/img12i<?= $count; ?>.png" width="250px" height="200px">
+        <div class="item-body">
+            <div>
+                <?= $name; ?>パンツェロッティ
+            </div>
+            <p class="nedan">
+                <?= $price; ?>200円
+            </p>
+            <!-- <div class="item-form"> -->
+            <form action="cart.php" method="POST" class="item-form">
+                <input type="hidden" name="name" value="<?= $name; ?>">
+                <input type="hidden" name="price" value="<?= $price; ?>">
+                <!-- <input type="text" value="1"> -->
+                <input type="text" class="kosuu" value="1" name="count">
+                <button type="submit" class="btn-sm btn-blue">カートに入れる</button>
+            </form>
+            <!-- </div>end item-form -->
+        </div><!-- end item-body-->
+    </li>
+    <li class="shop">
+    <img src="images/img14<?= $count; ?>.png" width="250px" height="200px">
+        <div class="item-body">
+            <div>
+                <?= $name; ?>レバニラ炒め
+            </div>
+            <p class="nedan">
+                <?= $price; ?>300円
+            </p>
+            <!-- <div class="item-form"> -->
+            <form action="cart.php" method="POST" class="item-form">
+                <input type="hidden" name="name" value="<?= $name; ?>">
+                <input type="hidden" name="price" value="<?= $price; ?>">
+                <!-- <input type="text" value="1"> -->
+                <input type="text" class="kosuu" value="1" name="count">
+                <button type="submit" class="btn-sm btn-blue">カートに入れる</button>
+            </form>
+            <!-- </div>end item-form -->
+        </div><!-- end item-body-->
+    </li>
+    <li class="shop">
+    <img src="images/img15<?= $count; ?>.png" width="250px" height="200px">
+        <div class="item-body">
+            <div>
+                <?= $name; ?>温玉揚げ
+            </div>
+            <p class="nedan">
+                <?= $price; ?>150円
+            </p>
+            <!-- <div class="item-form"> -->
+            <form action="cart.php" method="POST" class="item-form">
+                <input type="hidden" name="name" value="<?= $name; ?>">
+                <input type="hidden" name="price" value="<?= $price; ?>">
+                <!-- <input type="text" value="1"> -->
+                <input type="text" class="kosuu" value="1" name="count">
+                <button type="submit" class="btn-sm btn-blue">カートに入れる</button>
+            </form>
+            <!-- </div>end item-form -->
+        </div><!-- end item-body-->
+    </li>
+    <li class="shop">
+    <img src="images/img16<?= $count; ?>.png" width="250px" height="200px">
+        <div class="item-body">
+            <div>
+                <?= $name; ?>すが立った茶碗蒸し
+            </div>
+            <p class="nedan">
+                <?= $price; ?>180円
+            </p>
+            <!-- <div class="item-form"> -->
+            <form action="cart.php" method="POST" class="item-form">
+                <input type="hidden" name="name" value="<?= $name; ?>">
+                <input type="hidden" name="price" value="<?= $price; ?>">
+                <!-- <input type="text" value="1"> -->
+                <input type="text" class="kosuu" value="1" name="count">
+                <button type="submit" class="btn-sm btn-blue">カートに入れる</button>
+            </form>
+            <!-- </div>end item-form -->
+        </div><!-- end item-body-->
+    </li>
+    <li class="shop">
+    <img src="images/img18<?= $count; ?>.png" width="250px" height="200px">
+        <div class="item-body">
+            <div>
+                <?= $name; ?>鯖の棒寿司
+            </div>
+            <p class="nedan">
+                <?= $price; ?>120円
             </p>
             <!-- <div class="item-form"> -->
             <form action="cart.php" method="POST" class="item-form">
