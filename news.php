@@ -224,7 +224,7 @@ img {
 
       <p><a href="./index.html"></a></p>
     </header>
-    <div class="container text-align-center">
+    <div class="container">
       <div class="news-box">
         <h2>最新のお知らせ</h2>
         <div class="news-item">
