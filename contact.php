@@ -1,5 +1,5 @@
-<?php require 'header.php'; ?>
-<?php require 'menu.php'; ?>
+<!-- <?php require 'header.php'; ?>
+<?php require 'menu.php'; ?> -->
 
 <style>
 .contact {
@@ -89,8 +89,7 @@
     cursor: pointer;
 }
 </style>
-
-        <div class="contact">
+<div class="contact">
             <h1 class="contact-ttl">Contact</h1>
             <form action="">
                 <table class="contact-table">
@@ -130,10 +129,8 @@
                         </td>
                     </tr>
                 </table>
-
-                <input class="contact-submit" type="submit" value="送信" />
+                <input class="contact-submit" type="submit" value="送信" >
             </form>
         </div>
-
-        <?php require 'footer.php'; ?>
+        <!-- <?php require 'footer.php'; ?> -->
 
