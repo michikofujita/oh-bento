@@ -11,7 +11,7 @@
                     <li><a href="news.php"><b>お知らせ</b></a></li>
                     <li><a href="product.php"><b>メニュー</b></a></li>
                     <li><a href="cash.php"><b>お支払い方法</b></a></li>
-                    <li><a href="https://forms.gle/XxQXLUEwLa4BXu4GA"><b>お問い合わせ</b></a></li>
+                    <li><a href="contact.php"><b>お問い合わせ</b></a></li>
                 </ul>
             </nav>
         </div>
@@ -23,7 +23,7 @@
                 <li><a href="news.php"><b>お知らせ</b></a></li>
                 <li><a href="product.php"><b>メニュー</b></a></li>
                 <li><a href="cash.php"><b>お支払い方法</b></a></li>
-                <li><a href="https://forms.gle/XxQXLUEwLa4BXu4GA"><b>お問い合わせ</b></a></li>
+                <li><a href="contact.php"><b>お問い合わせ</b></a></li>
             </ul>
     <div>
 </header>
