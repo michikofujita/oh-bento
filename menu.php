@@ -1,4 +1,4 @@
-<header>
+<header id="header">
     <div class="header-flex">
         <div class="hero">
             <img src="images/img08.png" alt="お店ロゴ" class="small-image">
