@@ -7,7 +7,7 @@
 }
 
 
-body {
+#header {
     margin: 0;
     padding: 0;
     font-family: "Noto Sans JP";
@@ -26,14 +26,14 @@ body {
     align-items: center;
 }
 
-#logo  {
+#header .logo  {
     color: #d50000;
     text-shadow: 3px 4px 2px #ffffff;
     font-size: 20px;
     margin: auto 0 auto 20px;
 }
 
-#logo span {
+#header .logo span {
     color: white;
     text-shadow: 3px 4px 2px #d50000;
     font-size: 40px;
@@ -41,14 +41,14 @@ body {
     cursor: pointer;
 }
 
-.small-image {
+#header .small-image {
     max-width: 80%; 
     max-height: 70%; 
 }
 
 
-/* menu部分 */
-nav ul {
+/* 「header」のmenu部分 */
+#header nav ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
@@ -56,16 +56,16 @@ nav ul {
     padding: 0;
 }
 
-nav ul li {
+#header nav ul li {
     padding: 0 2.5px 3px 2.5px;
 }
 
-nav li, nav a {
+#header nav li, nav a {
     display: block;
 
 }
 
-nav a {
+#header nav a {
     text-decoration: none;
     text-align: center;
     background-color: #85edb4; 
@@ -77,7 +77,7 @@ nav a {
     
 }
 
-nav a:hover {
+#header nav a:hover {
     background-color: #f8be21; 
     color: #1202bc;
     text-shadow: 3px 2px 2px #c9c2fb
@@ -86,12 +86,12 @@ nav a:hover {
 
 
 /* address部分 */
-dl {
+#adress dl {
     text-align: center;
     margin: 50px auto 0 auto;
 }
 
-dt {
+#adress dt {
     margin-top: 20px ;
     width: fit-content;
     border-radius: 50%;
@@ -105,21 +105,21 @@ dt {
     margin-right: auto;
 }
 
-dd {
+#adress dd {
     margin-top: 10px;
 }
 
-p {
+#adress p {
     text-align: center;
     margin: 10px auto 0 auto;
 }
 
-p span {
+#adress p span {
     font-size: 23px;
     margin-top: 0;
 }
 
-table {
+#adress table {
     border-collapse: separate;
     border-spacing: 0;
     border: 1px solid #3cb371;
@@ -128,24 +128,24 @@ table {
     margin: 0 auto;
 }
 
-th, td {
+#adress th, #adress td {
     padding: 10px 25px;
     border-bottom: 1px solid #3cb371;
 }
-th {
+#adress th {
     background-color: #3cb371;
 }
-td {
+#adress td {
     border-left: 1px solid #3cb371;
     text-align: center
 }
-    tr:last-child th,
-    tr:last-child td {
+#adress tr:last-child th,
+#adress tr:last-child td {
     border-bottom: none;
 }
 
 
-#map-container {
+#adress .map-container {
     text-align: center;
     width: 100%;
     height: 450px;
@@ -153,7 +153,7 @@ td {
     margin-top: 10px;
 }
 
-address {
+#adress address {
     margin: auto;
     width: fit-content;
     display: block;
@@ -161,14 +161,13 @@ address {
 }
 
 
-address span {
+#adress address span {
     font-size: 25px;
     display: inline-block;
 }
 
 /* footer部分 */
-footer {
-    /* color: white; */
+#footer .end {
     text-align: center;
     margin: 50px auto 30px auto;
     background-color: #3cb371;
@@ -179,76 +178,76 @@ footer {
 
 /* 画面サイズ変更 */
 @media screen and (min-width: 1000px) {
-    header .hero {
+    #header .hero {
         margin-left: 5%;
         width: auto; 
     }
     
-    .for-sh {
+    #header .for-sh {
         display: block;
     }
-    .for-pc {
+    #header .for-pc {
         display: none;
     }
-    .header-flex {
+    #header .header-flex {
         display: flex;
         background-color: #3cb371;
         height: 150px;
     }
 
 
-    nav ul {
+    #header nav ul {
         display: flex;
         margin: 0 auto 50px auto;
         padding: 0;
     }
     
     
-    .business {
+    #header .business {
         font-size: 1.5rem;
     }   
-    .business th, .business td {
+    #header .business th, #header .business td {
         padding: 10px 23px;
     }  
 } 
 
 
 @media screen and (max-width: 999px) {
-    .hero {
+    #header .hero {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .business {
+    #header .business {
         font-size: 1rem;
     }   
-    .business th, .business td {
+    #header .business th, #header .business td {
         padding: 10px 23px;
     }  
 }
 
 
 @media screen and (max-width: 640px) {
-    nav {
+    #header nav {
         display: block;
     }    
 }
 
 
 @media screen and (max-width: 599px) {
-    .business {
+    #header .business {
         font-size: 0.7rem;
     }   
-    .business th, .business td {
+    #header .business th, #header .business td {
         padding: 10px 15px;
     }
 }
 
 @media screen and (max-width: 470px) {
-    #logo span {
+    #header .logo span {
         font-size: 1.8rem;
     }
-    #logo {
+    #header .logo {
         font-size: 0.9rem;
     }
 }
