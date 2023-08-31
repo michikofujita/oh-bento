@@ -22,20 +22,22 @@
     <div class="b-radius">
       <div class="item">
         <figure class="image">
-          <img src="./images/news.phone.jpg" alt="phone" />
+          <img src="./images/news.phone.svg" alt="phone" />
         </figure>
         <p class="title">お電話でのお問い合わせ<br />0120-○○○○-○○○○</p>
       </div>
       <div class="item">
         <figure class="image">
-          <img src="./images/news.e-mail.jpg" alt="e-mail" />
+          <img src="./images/news.e-mail.svg" alt="e-mail" />
         </figure>
         <p class="title">インターネットでの<br />お問い合わせ</p>
       </div>
     </div>
-    <p class="chui">
+
+    <p class="Note">
       営業時間: 9時〜20時※木曜日は休み、月曜日は午前中のみ営業
     </p>
+
   </div>
 </main>
 
