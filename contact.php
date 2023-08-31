@@ -129,8 +129,10 @@
                         </td>
                     </tr>
                 </table>
-                <input class="contact-submit" type="submit" value="送信" >
+
+                <input class="contact-submit" type="submit" value="送信" />
             </form>
         </div>
-        <!-- <?php require 'footer.php'; ?> -->
+
+        <?php require 'footer.php'; ?>
 
