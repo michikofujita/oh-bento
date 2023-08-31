@@ -1,5 +1,3 @@
-<?php require 'header.php'; ?>
-<?php require 'menu.php'; ?>
 
 
 <?php
@@ -333,6 +331,3 @@ $count = isset($_GET['id']) ? htmlspecialchars($_GET['id'], ENT_QUOTES, 'utf-8')
 
 </ul>
 </div>
-</body>
-
-</html>
