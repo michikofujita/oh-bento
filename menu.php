@@ -8,10 +8,10 @@
         <div class="for-sh">
             <nav>
                     <ul>
-                    <li><a href="news.php"><b>お知らせ</b></a></li>
-                    <li><a href="product.php"><b>メニュー</b></a></li>
-                    <li><a href="cash.php"><b>お支払い方法</b></a></li>
-                    <li><a href="contact.php"><b>お問い合わせ</b></a></li>
+                    <li><a href="news.php" class="button"><b>お知らせ</b></a></li>
+                    <li><a href="product.php" class="button"><b>メニュー</b></a></li>
+                    <li><a href="cash.php" class="button"><b>お支払い方法</b></a></li>
+                    <li><a href="contact.php" class="button"><b>お問い合わせ</b></a></li>
                 </ul>
             </nav>
         </div>

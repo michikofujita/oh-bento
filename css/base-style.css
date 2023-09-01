@@ -54,16 +54,13 @@ body {
     margin: 0 auto 50px auto;
     padding: 0;
 }
-
 #header nav ul li {
     padding: 0 2.5px 3px 2.5px;
 }
-
 #header nav li, nav a {
     display: block;
 
 }
-
 #header nav a {
     text-decoration: none;
     text-align: center;
@@ -73,15 +70,14 @@ body {
     padding-bottom: 20px;
     color: #040404;
     text-shadow: 1px 3px 1px #d7fc67
-    
 }
-
 #header nav a:hover {
     background-color: #f8be21; 
     color: #1202bc;
     text-shadow: 1px 3px 1px #c9c2fb
 
 }
+
 
 
 /* address部分 */
@@ -162,7 +158,6 @@ body {
     font-size: 1vw;
 }
 
-
 /* 画面サイズ変更 */
 @media screen and (min-width: 1000px) {
     #header .hero {
@@ -177,7 +172,6 @@ body {
     text-shadow: 0.1rem 0.1rem 0.1rem #d50000;
     font-size: 2.4rem;
     }
-
     #adress dt {
         font-size: 65px;
         color: #d50000;
@@ -204,8 +198,17 @@ body {
     #header nav a{
         font-size: 18px;
     }
+    #header .button {
+        display: inline-block;
+        border-style: solid;
+        background-color: #85edb4;
+        border-width:1px;
+        border-color: darkgray;
+        color: black;
+        text-decoration: none;
+        border-radius: 10%;
+    }
     #adress p {
-        /* margin: 20px auto 0 auto; */
         font-size: 30px;
     }
     
@@ -230,7 +233,6 @@ body {
     }  
 }
 
-
 @media screen and (max-width: 999px) {
     #header .hero {
         display: flex;
@@ -245,13 +247,11 @@ body {
     }  
 }
 
-
 @media screen and (max-width: 640px) {
     #header nav {
         display: block;
     }    
 }
-
 
 @media screen and (max-width: 599px) {
     #footer.business {
@@ -287,3 +287,4 @@ body {
         font-size: 5.5vw;
     }
 }
+
