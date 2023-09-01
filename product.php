@@ -319,3 +319,6 @@ require_once 'header.php';
 
     </ul>
 </main>
+
+<?php require 'address.php'; ?>
+<?php require 'footer.php'; ?>
