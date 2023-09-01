@@ -26,6 +26,7 @@
 #product p.nedan {
   font-size: 0.8em;
   color: #cc0000;
+  text-align: right;
 }
 #product .item-body {
   font-size: 22px;
@@ -36,8 +37,24 @@
 #product .shop {
   width: 18%;
 }
+#product h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  padding-top: 1em;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: #3cb371
 
-#cash  {
+}
+#product p {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+
+#cash {
     text-align:center;
     padding:20px 0;
 }

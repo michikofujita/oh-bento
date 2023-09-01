@@ -9,8 +9,11 @@ $price = isset($_GET['price']) ? htmlspecialchars($_GET['price'], ENT_QUOTES, 'u
 $count = isset($_GET['id']) ? htmlspecialchars($_GET['id'], ENT_QUOTES, 'utf-8') : '';
 require_once 'header.php';
 ?>
-   
+
+
 <main id="product">
+<h1>商品選択ページ</h1>
+    <p>下記よりお好きな商品を選択してカートに入れてください。</p>
     <ul class="flex">
             <li class="shop">
             <img src="images/img02<?= $count; ?>.png" width="250px" height="200px">
