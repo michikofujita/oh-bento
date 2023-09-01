@@ -32,14 +32,14 @@ body {
 
 #logo  {
     color: #d50000;
-    text-shadow: 3px 4px 2px #ffffff;
+    text-shadow: 1px 3px 1px #ffffff;
     font-size: 20px;
     margin: auto 0 auto 20px;
 }
 
 #logo span {
     color: white;
-    text-shadow: 3px 4px 2px #d50000;
+    text-shadow: 1px 3px 1px #d50000;
     font-size: 40px;
     letter-spacing: 1px;
     cursor: pointer;
@@ -76,15 +76,15 @@ body {
     font-size: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-    color: #000;
-    text-shadow: 3px 2px 2px #d7fc67
+    color: #040404;
+    text-shadow: 1px 3px 1px #d7fc67
     
 }
 
 #header nav a:hover {
     background-color: #f8be21; 
     color: #1202bc;
-    text-shadow: 3px 2px 2px #c9c2fb
+    text-shadow: 1px 3px 1px #c9c2fb
 
 }
 
@@ -104,7 +104,7 @@ body {
     text-align: center;
     font-size: 7vw;
     color: #d50000;
-    text-shadow: 1vw 1vw 1vw #ffffff;
+    text-shadow: 1px 3px 1px #ffffff;
     margin-left: auto;
     margin-right: auto;
 }
@@ -115,12 +115,13 @@ body {
 
 #adress p {
     text-align: center;
-    margin: 10px auto 0 auto;
-    font-size: 4.2vw;}
+    margin: 20px auto 0 auto;
+    font-size: 4.2vw;
+}
 
-#adress p span {
+#adress .dya {
     font-size: 6.2vw;
-    margin-top: 0;
+    margin-top: 10px;
 }
 
 #adress table {
@@ -133,7 +134,7 @@ body {
 }
 
 #adress th, #adress td {
-    padding: 1.5vw 2.1vw;
+    padding: 2vw 2.5vw;
     border-bottom: 1px solid #3cb371;
 }
 #adress th {
@@ -186,9 +187,26 @@ body {
         margin-left: 5%;
         width: auto; 
     }
-    
+    #logo  {
+        text-shadow: 0.1rem 0.1rem 0.1rem #ffffff;
+        font-size: 1.1rem;
+    }
+    #logo span {
+    text-shadow: 0.1rem 0.1rem 0.1rem #d50000;
+    font-size: 2.4rem;
+    }
+
+    #adress dt {
+        font-size: 65px;
+        color: #d50000;
+        text-shadow: 3px 4px 3px #ffffff;
+
+    }
+
     #header .for-sh {
         display: block;
+        margin-top: auto;
+        margin-left: 200px;
     }
     #header .for-pc {
         display: none;
@@ -198,23 +216,40 @@ body {
         background-color: #3cb371;
         height: 150px;
     }
-
-
     #header nav ul {
         display: flex;
         margin: 0 auto 50px auto;
-        padding: 0;
+        padding: 0 10px;
+    }
+    #header nav a{
+        font-size: 18px;
     }
     
+    #adress p {
+        /* margin: 20px auto 0 auto; */
+        font-size: 30px;
+    }
     
+    #adress .dya {
+        font-size: 45px;
+        margin: 10px;
+    }
+
     #header .business {
-        font-size: 1.5vw;
-        margin: 0 5px;
+        font-size: 20px;
+        margin: 15px;
     }   
+
+    #adress address {
+        font-size: 25px;
+    }
+    #adress address span {
+        font-size: 30px;
+    }
     #footer .business th, #footer .business td {
         padding: 1vw 2vw;
     }  
-} 
+}
 
 
 @media screen and (max-width: 999px) {
@@ -250,10 +285,10 @@ body {
 
 @media screen and (max-width: 470px) {
     #logo span {
-        font-size: 1.8vw;
+        font-size: 1.8rem;
     }
     #logo {
-        font-size: 0.9vw;
+        font-size: 0.9rem;
     }
     #adress p {
         font-size: 4vw;
