@@ -10,61 +10,42 @@
   color: #444444;
 }
 
-#news p {
-  text-align: left;
-}
-#news .news-box {
+.newsnews {
   margin: 0 10%;
 }
 
-#news .news-item {
-  border-bottom: 1px solid #ccc;
-  padding: 10px 0;
-}
-
-#news .b-radius {
-  margin: 5% 15%;
-  display: flex;
-  justify-content: center;
-  gap: 10%;
-}
-
-#news .b-radius .item .image {
-  margin: 0 auto;
-  width: 60%;
-}
-#news .b-radius .item:first-child .image {
-  margin: 15px auto 25px;
-  width: 50%;
-}
-
-#news .item {
-  border: 1px solid #ccc;
-  border-radius: 16px;
-  padding: 1rem;
-}
-
-#news .image img {
-  background-size: cover;
-  display: flex;
-  flex: 1;
-  height: auto;
-  width: 100%;
-  height: 100%;
-  margin: 10px;
-}
-
-#news h2 {
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 1rem;
-  margin-bottom: 0px;
-  color: #444444;
-}
-
-#news img {
-  width: 100px; /* 幅を指定 */
-  height: 100px; /* 高さを指定 */
-}
-#news .Note {
+.title {
+  font-weight: bold;
   text-align: center;
+  padding: 24px 16px;
+  border-bottom: dotted; /*下線を点線にする*/
+  border-color: #009966;
+  align-items: center;
+  gap: 0 40px;
+  flex-wrap: nowrap;
+}
+
+.newslist {
+  display: flex;
+  padding: 24px 16px;
+  border-bottom: dotted; /*下線を点線にする*/
+  border-color: #009966;
+  align-items: center;
+  gap: 0 40px;
+  flex-wrap: nowrap;
+}
+
+.newsList {
+  margin: 0 10%;
+}
+
+.inner {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.subfooter__inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 4%;
 }
