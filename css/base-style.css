@@ -59,7 +59,7 @@ body {
 }
 #header nav li, nav a {
     display: block;
-
+    font-weight:bold
 }
 #header nav a {
     text-decoration: none;
@@ -78,8 +78,6 @@ body {
 
 }
 
-
-
 /* address部分 */
 #adress dl {
     text-align: center;
@@ -93,7 +91,7 @@ body {
     padding: 30px;
     text-align: center;
     font-size: 7vw;
-    color: #d50000;
+    color: #ffffff;
     text-shadow: 1px 3px 1px #ffffff;
     margin-left: auto;
     margin-right: auto;
@@ -203,7 +201,7 @@ body {
         border-style: solid;
         background-color: #85edb4;
         border-width:1px;
-        border-color: darkgray;
+        border-color: rgb(255, 255, 255);
         color: black;
         text-decoration: none;
         border-radius: 10%;
@@ -211,17 +209,14 @@ body {
     #adress p {
         font-size: 30px;
     }
-    
     #adress .dya {
         font-size: 45px;
         margin: 10px;
     }
-
     #header .business {
         font-size: 20px;
         margin: 15px;
     }   
-
     #adress address {
         font-size: 25px;
     }
