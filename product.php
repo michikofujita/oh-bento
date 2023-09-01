@@ -14,7 +14,7 @@ require_once 'header.php';
 
 <main id="product">
 <h1>商品選択ページ</h1>
-    <p>下記よりお好きな商品を選択してカートに入れてください。</p>
+    <p>下記より、お好きな商品の数量を入力してカートに入れてください。</p>
     <ul class="flex">
             <li class="shop">
             <img src="images/img02<?= $count; ?>.png" width="250px" height="200px">
