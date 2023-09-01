@@ -50,3 +50,5 @@
   </div>
 </main>
 
+<?php require 'address.php'; ?>
+<?php require 'footer.php'; ?>
