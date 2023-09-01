@@ -16,7 +16,7 @@
   flex-wrap: wrap;
   list-style: none;
   /* justify-content: space-between; */
-  padding: 0;
+  padding-left: 160px;
   gap: 7%;
 }
 #product p {
