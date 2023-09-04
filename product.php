@@ -1,5 +1,3 @@
-<?php require 'header.php'; ?>
-<?php require 'menu.php'; ?>
 
 
 <?php
@@ -71,10 +69,10 @@ $count = isset($_GET['id']) ? htmlspecialchars($_GET['id'], ENT_QUOTES, 'utf-8')
         </div><!-- end item-body-->
     </li>
 	<li class="shop">
-    <img src="images/img04<?= $count; ?>.png" width="250px" height="200px">
+    <img src="images/img13<?= $count; ?>.png" width="250px" height="200px">
         <div class="item-body">
             <div>
-                <?= $name; ?>アスパラベーコン巻き
+                <?= $name; ?>冷やし中華
             </div>      
             <p class="nedan">
                 <?= $price; ?>150円
