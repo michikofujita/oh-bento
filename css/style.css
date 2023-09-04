@@ -69,6 +69,70 @@
   margin-top: 1em;
 }
 
+/* cart.phpの装飾 */
+
+/* .cartlist {
+  border: 1px solid #000; /* 枠線のスタイルと色を設定 */
+  /* padding: 20px; /* 枠の内側に余白を追加 */
+  /* max-width: 200;
+  text-align: center; */
+/* }  */
+
+/* #concept {
+  text-align: center;
+}
+.cart-table {
+  text-align: center;
+} */ 
+
+/* cart */
+.nowrap {
+	width: 70%;
+	border-collapse: collapse;
+	margin: auto;
+}
+
+.nowrap tr {
+	text-align: center;
+}
+
+thead {
+	border-collapse:separate;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.nowrap th,
+.nowrap td {
+	border: 1px solid #000000;
+	vertical-align: middle;
+	padding: 5px 10px;
+	text-align: center;
+}
+
+.nowrap th {
+	background-color: #4c586f;
+	color: #fff;
+}
+
+.nowrap button {
+	margin: 0;
+}
+
+.total td {
+	text-align: center;
+}
+
+.nowrap-btn {
+	text-align: center;
+}
+
+.cart-btn {
+	text-align: center;
+} 
+
 @media screen and (max-width: 640px) {
   /* nav {
     display: block;
