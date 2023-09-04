@@ -91,10 +91,12 @@ body {
     padding: 30px;
     text-align: center;
     font-size: 7vw;
-    color: #d50000;
     text-shadow: 1px 3px 1px #ffffff;
     margin-left: auto;
     margin-right: auto;
+}
+#adress dt .dya1 {
+    color: #d50000;
 }
 #adress dd {
     margin: 10px;
