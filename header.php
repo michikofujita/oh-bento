@@ -5,6 +5,7 @@
     <title>OH! 弁当屋</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/base-style.css">
+    <link rel="stylesheet" href="css/top-style.css">
     <link rel="stylesheet" href="css/news-style.css">
     <link rel="stylesheet" href="css/contact-style.css">
     <link rel="stylesheet" href="css/style.css">
