@@ -1,124 +1,114 @@
 @charset "utf-8";
-.for-sh {
+#header .for-sh {
     display: none;
 }
-.for-pc {
+#header .for-pc {
     display: block;
 }
-
-
 body {
+    box-sizing: border-box;
+    font-family: "Noto Sans JP";
     margin: 0;
     padding: 0;
-    font-family: "Noto Sans JP";
+    height: 100%;
+    font-size: 25px;
+    color: #444444;
 }
-
-header .hero {
+#header {
+    margin-bottom: 100px;
+    padding: 0;
+}
+#header .hero {
     background-color: #3cb371;
     width: 100%;
     height: 150px;
-}
-
-
-.hero {
     display: flex;
     align-items: center;
 }
-
 #logo  {
     color: #d50000;
-    text-shadow: 3px 4px 2px #ffffff;
+    text-shadow: 1px 3px 1px #ffffff;
     font-size: 20px;
     margin: auto 0 auto 20px;
 }
-
 #logo span {
     color: white;
-    text-shadow: 3px 4px 2px #d50000;
+    text-shadow: 1px 3px 1px #d50000;
     font-size: 40px;
     letter-spacing: 1px;
     cursor: pointer;
 }
-
-.small-image {
+#header .small-image {
     max-width: 80%; 
     max-height: 70%; 
 }
 
-
-/* menu部分 */
-nav ul {
+/* 「header」のmenu部分 */
+#header .header-flex {
+    justify-content: space-between;
+}
+#header nav ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
     margin: 0 auto 50px auto;
     padding: 0;
 }
-
-nav ul li {
+#header nav ul li {
     padding: 0 2.5px 3px 2.5px;
 }
-
-nav li, nav a {
+#header nav li, nav a {
     display: block;
-
+    font-weight:bold
 }
-
-nav a {
+#header nav a {
     text-decoration: none;
     text-align: center;
     background-color: #85edb4; 
     font-size: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-    color: #000;
-    text-shadow: 3px 2px 2px #d7fc67
-    
+    color: #040404;
+    text-shadow: 1px 3px 1px #d7fc67
 }
-
-nav a:hover {
+#header nav a:hover {
     background-color: #f8be21; 
     color: #1202bc;
-    text-shadow: 3px 2px 2px #c9c2fb
+    text-shadow: 1px 3px 1px #c9c2fb
 
 }
-
 
 /* address部分 */
-dl {
+#adress dl {
     text-align: center;
-    margin: 50px auto 0 auto;
+    margin: 150px auto 0 auto;
 }
-
-dt {
-    margin-top: 20px ;
+#adress dt {
+    margin: 20px auto;
     width: fit-content;
     border-radius: 50%;
     background-color: #3cb371;
     padding: 30px;
     text-align: center;
-    font-size: 30px;
-    color: #d50000;
-    text-shadow: 3px 3px 1px #ffffff;
+    font-size: 7vw;
+    color: #ffffff;
+    text-shadow: 1px 3px 1px #ffffff;
     margin-left: auto;
     margin-right: auto;
 }
-
-dd {
+#adress dd {
+    margin: 10px;
+}
+#adress p {
+    text-align: center;
+    margin: 20px auto 0 auto;
+    font-size: 4.2vw;
+}
+#adress .dya {
+    font-size: 6.2vw;
     margin-top: 10px;
 }
-
-p {
-    text-align: center;
-    margin: 10px auto 0 auto;
-}
-
-p span {
-    font-size: 23px;
-    margin-top: 0;
-}
-
-table {
+#adress table {
     border-collapse: separate;
     border-spacing: 0;
     border: 1px solid #3cb371;
@@ -126,119 +116,143 @@ table {
     overflow: hidden;
     margin: 0 auto;
 }
-
-th, td {
-    padding: 10px 25px;
+#adress th, #adress td {
+    padding: 2vw 2.5vw;
     border-bottom: 1px solid #3cb371;
 }
-th {
+#adress th {
     background-color: #3cb371;
 }
-td {
+#adress td {
     border-left: 1px solid #3cb371;
     text-align: center
 }
-    tr:last-child th,
-    tr:last-child td {
+#adress tr:last-child th,
+#adress tr:last-child td {
     border-bottom: none;
 }
-
-
 #map-container {
     text-align: center;
     width: 100%;
     height: 450px;
-    margin: auto; /* 横方向に中央揃え */
-    margin-top: 10px;
+    margin: 20px auto; /* 横方向に中央揃え */
 }
-
-address {
-    margin: auto;
+#adress address {
+    margin: 50px auto 10px auto;
     width: fit-content;
     display: block;
     font-weight: bold;
+    font-size: 5vw;
 }
-
-
-address span {
-    font-size: 25px;
+#adress address span {
+    font-size: 5.3vw;
     display: inline-block;
 }
-
 /* footer部分 */
-footer {
-    /* color: white; */
+#footer .end {
     text-align: center;
     margin: 50px auto 30px auto;
     background-color: #3cb371;
-    font-size: 20px;
+    font-size: 1vw;
 }
-
-
 
 /* 画面サイズ変更 */
 @media screen and (min-width: 1000px) {
-    header .hero {
+    #header .hero {
         margin-left: 5%;
         width: auto; 
     }
-    
-    .for-sh {
-        display: block;
+    #logo  {
+        text-shadow: 0.1rem 0.1rem 0.1rem #ffffff;
+        font-size: 1.1rem;
     }
-    .for-pc {
+    #logo span {
+    text-shadow: 0.1rem 0.1rem 0.1rem #d50000;
+    font-size: 2.4rem;
+    }
+    #adress dt {
+        font-size: 65px;
+        color: #d50000;
+        text-shadow: 3px 4px 3px #ffffff;
+    }
+    #header .for-sh {
+        display: block;
+        margin-top: auto;
+        margin-left: 200px;
+    }
+    #header .for-pc {
         display: none;
     }
-    .header-flex {
+    #header .header-flex {
         display: flex;
         background-color: #3cb371;
         height: 150px;
     }
-
-
-    nav ul {
+    #header nav ul {
         display: flex;
         margin: 0 auto 50px auto;
-        padding: 0;
+        padding: 0 10px;
     }
-    
-    
-    .business {
-        font-size: 1.5rem;
+    #header nav a{
+        font-size: 18px;
+    }
+    #header .button {
+        display: inline-block;
+        border-style: solid;
+        background-color: #85edb4;
+        border-width:1px;
+        border-color: rgb(255, 255, 255);
+        color: black;
+        text-decoration: none;
+        border-radius: 10%;
+    }
+    #adress p {
+        font-size: 30px;
+    }
+    #adress .dya {
+        font-size: 45px;
+        margin: 10px;
+    }
+    #header .business {
+        font-size: 20px;
+        margin: 15px;
     }   
-    .business th, .business td {
-        padding: 10px 23px;
+    #adress address {
+        font-size: 25px;
+    }
+    #adress address span {
+        font-size: 30px;
+    }
+    #footer .business th, #footer .business td {
+        padding: 1vw 2vw;
     }  
-} 
-
+}
 
 @media screen and (max-width: 999px) {
-    .hero {
+    #header .hero {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .business {
+    #footer .business {
         font-size: 1rem;
     }   
-    .business th, .business td {
+    #footer .business th, #footer .business td {
         padding: 10px 23px;
     }  
 }
 
-
 @media screen and (max-width: 640px) {
-    nav {
+    #header nav {
         display: block;
     }    
 }
 
-
 @media screen and (max-width: 599px) {
-    .business {
+    #footer.business {
         font-size: 0.7rem;
     }   
-    .business th, .business td {
+    #footer .business th, #footer.business td {
         padding: 10px 15px;
     }
 }
@@ -250,4 +264,22 @@ footer {
     #logo {
         font-size: 0.9rem;
     }
+    #adress p {
+        font-size: 4vw;
+    }
+    #adress {
+        margin: 10px;
+    }
+    #adress th, #adress td {
+        padding: 1.3vw 2vw;
+        border-bottom: 1px solid #3cb371;
+        font-size: 5vw;
+    }
+    #adress address {
+        font-size: 5vw;
+    }
+    #adress address span {
+        font-size: 5.5vw;
+    }
 }
+
