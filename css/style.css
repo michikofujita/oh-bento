@@ -69,7 +69,6 @@
   margin-top: 1em;
 }
 
-<<<<<<< HEAD
 /* cart.phpの装飾 */
 
 /* .cartlist {
@@ -134,24 +133,6 @@ thead {
 	text-align: center;
 } 
 
-=======
-#confirm {
-  text-align:center;
-  padding:20px 0;
-}
-#confirm h3 {
-font-weight: bolder;
-font-size: 50px;
-margin-top: 1em;
-margin-bottom: 1em;
-}
-
-#confirm p {
-font-weight: bold;
-margin-top: 1em;
-}
-
->>>>>>> origin/main
 @media screen and (max-width: 640px) {
   /* nav {
     display: block;

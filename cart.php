@@ -137,15 +137,13 @@ foreach ($products as $name => $product) {
                     <input type="text" name="name" required></label></p>
             <p><label>電話番号（必須）<br>
                     <input type="tel" name="tel" required></label></p>
-            <p><label>備考(※ご意見ある方は入力してください)<br>
-                    <textarea name="comment"></textarea></label></p>
-            <p class="kessaihouhou">当てはまる項目を選択してください（必須）
+            <p>
                 <!-- <div class="creditkessai"><input type="radio" name="q1" value="クレジット決済">10～20代</div>
                 <div class="convenikessai"><input type="radio" name="q1" value="コンビニ決済"> 20～30代</div>
                 <div class="convenikessai"><input type="radio" name="q1" value="コンビニ決済"> 30代以上</div> -->
-                <label for="products">商品を選択:</label>
+                <label for="products">希望時間を選択（必須）<br></label>
 <select id="products" name="products">
-  <option value="product1">午前中</option>
+  <option value="product1">午前</option>
   <option value="product2">9:00～9:30</option>
   <option value="product3">9:30～10:00</option>
   <option value="product4">10:00～10:30</option>
@@ -159,9 +157,26 @@ foreach ($products as $name => $product) {
 
   <!-- 他の商品のオプションを追加 -->
 </select>
+<select id="products" name="products">
+  <option value="product1">午後</option>
+  <option value="product2">15:00～15:30</option>
+  <option value="product3">15:30～16:00</option>
+  <option value="product4">16:00～16:30</option>
+  <option value="product5">16:30～17:00</option>
+  <option value="product6">17:00～17:30</option>
+  <option value="product7">17:30～18:00</option>
+  <option value="product8">18:00～18:30</option>
+  <option value="product9">18:30～19:00</option>
+  <option value="product10">19:00～19:30</option>
+  <option value="product11">19:30～20:00</option>
+
+  <!-- 他の商品のオプションを追加 -->
+</select>
+<p><label>備考(※ご意見ある方は入力してください)<br>
+                    <textarea name="comment"></textarea></label></p>
             </p>
             <div class="book" style="margin-top: 50px;">
-            <button class="cash" onclick="location.href='credit.html'">購入確定</button>
+            <button class="cash" onclick="location.href='kanryou.php'">購入確定</button>
             </div>
         </form>
 
