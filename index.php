@@ -18,7 +18,7 @@
         <div>
           <figure class="image2"><img src="images/img13.png" alt="top画像2"></figure>
         </div>
-        <div>
+        <div class="cyuuka">
           <h6>2023年8月1日～</h6>
           <p><span>冷やし中華はじめました</span><br>
           是非、お買い求めください。</p>
