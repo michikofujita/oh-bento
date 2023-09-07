@@ -25,7 +25,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <th class="contact-item">お問合せ種類</th>
+                        <th class="contact-item small-text">お問合せ種類</th>
                         <td class="contact-body">
                             <label class="contact">
                                 <input type="checkbox" name="name">
@@ -42,7 +42,7 @@
                          </td>
                     </tr>
                     <tr class="sample">
-                        <th class="contact-item ">お問い合せ内容</th>
+                        <th class="contact-item small-text">お問い合せ内容</th>
                         <td class="contact-body">
                             <textarea name="問い合わせ" class="form-textarea" placeholder="ご注文の変更につきましては、注文日時のご記入もあわせてお願いします。"></textarea>
                         </td>
