@@ -4,7 +4,7 @@
      <main id="contact">
         <div class="contact">
             <h1 class="contact-ttl">Contact</h1>
-            <form action="">
+            <form action="confirm.php" method="post">
                 <table class="contact-table">
                     <tr>
                         <th class="contact-item">名&emsp;&emsp;&emsp;前</th>
@@ -16,6 +16,12 @@
                         <th class="contact-item">メ&emsp;ー&emsp;ル</th>
                         <td class="contact-body">
                             <input type="email" name="メール" class="form-text" placeholder="oh_bento@gmail.com">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="contact-item">電&emsp;&emsp;&emsp;話</th>
+                        <td class="contact-body">
+                            <input type="tel" name="メール電話" class="form-text" placeholder="0985-00-0000">
                         </td>
                     </tr>
                     <tr>
@@ -36,13 +42,17 @@
                          </td>
                     </tr>
                     <tr class="sample">
-                        <th class="contact-item ">お問い合わせ内容</th>
+                        <th class="contact-item ">お問い合せ内容</th>
                         <td class="contact-body">
                             <textarea name="問い合わせ" class="form-textarea" placeholder="ご注文の変更につきましては、注文日時のご記入もあわせてお願いします。"></textarea>
                         </td>
                     </tr>
                 </table>
-                <input class="contact-submit" type="submit" value="送信" >
+                <input class="contact-submit" type="submit" value="送信" >  
+                <br>
+                <!-- ボタンの追加
+                <button class="" type="submit">確認画面へ</button>
+                <button class="" type="reset">リセット</button> -->
             </form>
         </div>
     </main>

@@ -1,12 +1,14 @@
 <?php require 'header.php'; ?>
 <?php require 'menu.php'; ?>
 
-   <!-- 商品 -->
-   <h3>お支払い方法</h3>
-<p class = "tyuui"><img src="images\image.png" alt=""width="350" height="150"></p>
-<p>お問合せ頂きありがとうございます。</p>
-<p>確認いたしますのでしばらくお待ちください。</p>
+<link rel="stylesheet" href="css/style.css">
 
-   <!-- 商品 -->
+<main id="confirm">  
+     <!-- <h3>確認画面</h3> -->
+<p class = "tyuui"><img src="images\image2.png" alt=""width="150" height="150"></p><br>
+<p>お問合せ頂きありがとうございます。</p>
+<p>ご確認いたしますのでしばらくお待ちください。</p>
+</mail>
+
 <?php require 'address.php'; ?>
 <?php require 'footer.php'; ?>
