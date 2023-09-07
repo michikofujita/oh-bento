@@ -27,6 +27,7 @@
       </div>
 
     </div>
+    
     <div class="flex2">
       <figure class="image1"><img src="images/img01.png" alt="top画像1"></figure>
     </div>
