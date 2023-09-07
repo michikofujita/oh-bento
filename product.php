@@ -16,7 +16,28 @@ require_once 'header.php';
 <h1>商品選択ページ</h1>
     <p>下記より、お好きな商品の数量を入力してカートに入れてください。</p>
     <ul class="flex">
-            <li class="shop">
+    <li class="shop">
+            <img src="images/img21<?= $count; ?>.png" width="250px" height="200px">
+            <div class="item-body">
+                <div>
+                    <?= $name; ?>冷やし中華
+                </div>
+                <p class="nedan">
+                    <?= $price; ?>250円
+                </p>
+                
+                <!-- <div class="item-form"> -->
+                <form action="cart.php" method="POST" class="item-form">
+                    <input type="hidden" name="name" value="<?= $name; ?>">
+                    <input type="hidden" name="price" value="<?= $price; ?>">
+                    <!-- <input type="text" value="1"> -->
+                    <input type="text" class="kosuu" value="1" name="count">
+                    <button type="submit" class="btn-sm btn-blue">カートに入れる</button>
+                </form>
+                <!-- </div>end item-form -->
+            </div><!-- end item-body-->
+        </li>
+        <li class="shop">
             <img src="images/img02<?= $count; ?>.png" width="250px" height="200px">
             <div class="item-body">
                 <div>

@@ -63,20 +63,16 @@ padding: 0;
         font-size: 6.5vw;
         margin-bottom: 0;
     }
-    #top .box1 {
-        padding: 1.5vw;
-        margin: 1.5em 1.5em;
-    }
-    #top .box1 p {
-        margin: 10px 15px;
-    }
-    /* #top img {
-        text-align: center;
-    } */
-
     #top p {
         font-size: 3vw; 
     }
+    
+    #top .box1 {
+        padding: 3vw;
+        margin: 5vw auto;
+    }
+
+
     #top .Container {
         display: block;
     }
@@ -84,8 +80,9 @@ padding: 0;
         line-height: 100%;
     }
     #top .cyuuka {
-        margin: 20px;
+        margin: auto;
         width: 100%;
+
       }
       #top .cyuuka  p {
         display: inline-block;
@@ -99,10 +96,7 @@ padding: 0;
     #top p {
         font-size: 3.2vw;
     }
-    #top .cyuuka {
-        margin: 15px 10px 15px 0;
-  
-    }
+
     #top .cyuuka h6 {
         font-size: 5vw;
     }

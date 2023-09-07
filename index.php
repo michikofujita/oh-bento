@@ -1,7 +1,8 @@
 <?php require 'header.php'; ?>
 <?php require 'menu.php'; ?>
 
-<!-- 商品 -->
+   <!-- 商品 -->
+ <?php require 'product.php'; ?>
 <main id="top">
 
   <h1>自分好みのお弁当を作ろう！！</h1>
@@ -26,12 +27,13 @@
       </div>
 
     </div>
+    
     <div class="flex2">
       <figure class="image1"><img src="images/img01.png" alt="top画像1"></figure>
     </div>
   </div>
 
-  </main?>
+  </main>
   <!-- 商品 -->
   <?php require 'address.php'; ?>
   <?php require 'footer.php'; ?>
