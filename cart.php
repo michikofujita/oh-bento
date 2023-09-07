@@ -73,11 +73,9 @@ foreach ($products as $name => $product) {
     </header>
 
     <main>
-
         <div class="wrapper last-wrapper">
-
             <div class="cartlist">
-                <table class="cart-table">
+                <table class="nowrap">
                     <thead>
                         <tr>
                             <th>商品名</th>
@@ -90,10 +88,10 @@ foreach ($products as $name => $product) {
                     <tbody>
                         <?php foreach ($products as $name => $product): ?>
                             <tr>
-                               <td label="商品名：">バナナ</td>
-                                <td label="価格：" class="text-right">¥500</td>
+                                <!-- <td label="商品名：">バナナ</td> -->
+                                <!-- <td label="価格：" class="text-right">¥500</td>
                    <td label="個数：" class="text-right">2</td>
-                   <td label="小計：" class="text-right">¥1,000</td>
+                   <td label="小計：" class="text-right">¥1,000</td> -->
                                 <td label="商品名：">
                                     <?php echo $name; ?>
                                 </td>
@@ -104,7 +102,7 @@ foreach ($products as $name => $product) {
                                     <?php echo $product['count']; ?>
                                 </td>
                                 <td label="小計：" class="text-right">¥
-                                    <?php echo $product['price'] * $product['count']; ?>
+                                    <?php echo ($product['price'] * $product['count']); ?>
                                 </td>
                                 <td>
                                     <form action="cart.php" method="post">
@@ -126,8 +124,6 @@ foreach ($products as $name => $product) {
 
                     </tbody>
                 </table>
-
-
             </div>
         </div>
 
@@ -139,23 +135,48 @@ foreach ($products as $name => $product) {
         <form action="#" class="delivery">
             <p><label>お名前（必須）<br>
                     <input type="text" name="name" required></label></p>
-            <p><label>郵便番号（必須）<br>
-                    <input type="text" name="number" required></label></p>
-            <p><label>住所（必須）<br>
-                    <input type="text" name="address" required></label></p>
-            <p><label>メールアドレス（必須）<br>
-                    <input type="email" name="mail" required></label></p>
             <p><label>電話番号（必須）<br>
                     <input type="tel" name="tel" required></label></p>
-            <p><label>備考(※ご意見ある方は入力してください)<br>
-                    <textarea name="comment"></textarea></label></p>
-            <p class="kessaihouhou">当てはまる項目を選択してください（必須）
-                <div class="creditkessai"><input type="radio" name="q1" value="クレジット決済">10～20代</div>
+            <p>
+                <!-- <div class="creditkessai"><input type="radio" name="q1" value="クレジット決済">10～20代</div>
                 <div class="convenikessai"><input type="radio" name="q1" value="コンビニ決済"> 20～30代</div>
-                <div class="convenikessai"><input type="radio" name="q1" value="コンビニ決済"> 30代以上</div>
+                <div class="convenikessai"><input type="radio" name="q1" value="コンビニ決済"> 30代以上</div> -->
+                <label for="products">希望時間を選択（必須）<br></label>
+<select id="products" name="products">
+  <option value="product1">午前</option>
+  <option value="product2">9:00～9:30</option>
+  <option value="product3">9:30～10:00</option>
+  <option value="product4">10:00～10:30</option>
+  <option value="product5">10:30～11:00</option>
+  <option value="product6">11:00～11:30</option>
+  <option value="product7">11:30～12:00</option>
+  <option value="product8">12:00～12:30</option>
+  <option value="product9">12:30～13:00</option>
+  <option value="product10">13:00～13:30</option>
+  <option value="product11">13:30～14:00</option>
+
+  <!-- 他の商品のオプションを追加 -->
+</select>
+<select id="products" name="products">
+  <option value="product1">午後</option>
+  <option value="product2">15:00～15:30</option>
+  <option value="product3">15:30～16:00</option>
+  <option value="product4">16:00～16:30</option>
+  <option value="product5">16:30～17:00</option>
+  <option value="product6">17:00～17:30</option>
+  <option value="product7">17:30～18:00</option>
+  <option value="product8">18:00～18:30</option>
+  <option value="product9">18:30～19:00</option>
+  <option value="product10">19:00～19:30</option>
+  <option value="product11">19:30～20:00</option>
+
+  <!-- 他の商品のオプションを追加 -->
+</select>
+<p><label>備考(※ご意見ある方は入力してください)<br>
+                    <textarea name="comment"></textarea></label></p>
             </p>
             <div class="book" style="margin-top: 50px;">
-            <button class="credit" onclick="location.href='credit.html'">購入確定</button>
+            <button class="cash" onclick="location.href='kanryou.php'">購入確定</button>
             </div>
         </form>
 

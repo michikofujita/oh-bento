@@ -1,3 +1,5 @@
+<?php require 'header.php'; ?>
+<?php require 'menu.php'; ?>
 
 <?php
 session_start();
@@ -39,18 +41,18 @@ require_once 'header.php';
             <img src="images/img02<?= $count; ?>.png" width="250px" height="200px">
             <div class="item-body">
                 <div>
-                    <?= $name; ?>エビフライ
+                    特大エビフライ
                 </div>
                 <p class="nedan">
-                    <?= $price; ?>250円
+                    250円
                 </p>
                 
                 <!-- <div class="item-form"> -->
                 <form action="cart.php" method="POST" class="item-form">
-                    <input type="hidden" name="name" value="<?= $name; ?>">
-                    <input type="hidden" name="price" value="<?= $price; ?>">
+                    <input type="hidden" name="name" value="特大エビフライ">
+                    <input type="hidden" name="price" value="250">
                     <!-- <input type="text" value="1"> -->
-                    <input type="text" class="kosuu" value="1" name="count">
+                    <input type="text" class="kosuu" value="0" name="count">
                     <button type="submit" class="btn-sm btn-blue">カートに入れる</button>
                 </form>
                 <!-- </div>end item-form -->
@@ -60,17 +62,17 @@ require_once 'header.php';
         <img src="images/img03<?= $count; ?>.png" width="250px" height="200px">
             <div class="item-body">
                 <div>
-                    <?= $name; ?>コールスローサラダ
+                    コールスローサラダ
                 </div>
                 <p class="nedan">
-                    <?= $price; ?>340円
+                    200円
                 </p>
                 <!-- <div class="item-form"> -->
                 <form action="cart.php" method="POST" class="item-form">
-                    <input type="hidden" name="name" value="<?= $name; ?>">
-                    <input type="hidden" name="price" value="<?= $price; ?>">
+                    <input type="hidden" name="name" value="コールスローサラダ">
+                    <input type="hidden" name="price" value="200">
                     <!-- <input type="text" value="1"> -->
-                    <input type="text" class="kosuu" value="1" name="count">
+                    <input type="text" class="kosuu" value="0" name="count">
                     <button type="submit" class="btn-sm btn-blue">カートに入れる</button>
                 </form>
                 <!-- </div>end item-form -->
@@ -80,17 +82,17 @@ require_once 'header.php';
         <img src="images/img04<?= $count; ?>.png" width="250px" height="200px">
             <div class="item-body">
                 <div>
-                    <?= $name; ?>アスパラベーコン巻き
+                    アスパラベーコン巻き
                 </div>      
                 <p class="nedan">
-                    <?= $price; ?>150円
+                    150円
                 </p>
                 <!-- <div class="item-form"> -->
                 <form action="cart.php" method="POST" class="item-form">
-                    <input type="hidden" name="name" value="<?= $name; ?>">
-                    <input type="hidden" name="price" value="<?= $price; ?>">
+                    <input type="hidden" name="name" value="アスパラベーコン巻き">
+                    <input type="hidden" name="price" value="150">
                     <!-- <input type="text" value="1"> -->
-                    <input type="text" class="kosuu" value="1" name="count">
+                    <input type="text" class="kosuu" value="0" name="count">
                     <button type="submit" class="btn-sm btn-blue">カートに入れる</button>
                 </form>
                 <!-- </div>end item-form -->
@@ -100,17 +102,17 @@ require_once 'header.php';
         <img src="images/img05<?= $count; ?>.png" width="250px" height="200px">
             <div class="item-body">
                 <div>
-                    <?= $name; ?>白ご飯
+                    白ご飯
                 </div>
                 <p class="nedan">
-                    <?= $price; ?>200円
+                    200円
                 </p>
                 <!-- <div class="item-form"> -->
                 <form action="cart.php" method="POST" class="item-form">
-                    <input type="hidden" name="name" value="<?= $name; ?>">
-                    <input type="hidden" name="price" value="<?= $price; ?>">
+                    <input type="hidden" name="name" value="白ご飯">
+                    <input type="hidden" name="price" value="200">
                     <!-- <input type="text" value="1"> -->
-                    <input type="text" class="kosuu" value="1" name="count">
+                    <input type="text" class="kosuu" value="0" name="count">
                     <button type="submit" class="btn-sm btn-blue">カートに入れる</button>
                 </form>
                 <!-- </div>end item-form -->
@@ -120,17 +122,17 @@ require_once 'header.php';
         <img src="images/img06<?= $count; ?>.png" width="250px" height="200px">
             <div class="item-body">
                 <div>
-                    <?= $name; ?>コロッケ
+                    カニクリームコロッケ
                 </div>
                 <p class="nedan">
-                    <?= $price; ?>100円
+                    100円
                 </p>
                 <!-- <div class="item-form"> -->
                 <form action="cart.php" method="POST" class="item-form">
-                    <input type="hidden" name="name" value="<?= $name; ?>">
-                    <input type="hidden" name="price" value="<?= $price; ?>">
+                    <input type="hidden" name="name" value="カニクリームコロッケ">
+                    <input type="hidden" name="price" value="100">
                     <!-- <input type="text" value="1"> -->
-                    <input type="text" class="kosuu" value="1" name="count">
+                    <input type="text" class="kosuu" value="0" name="count">
                     <button type="submit" class="btn-sm btn-blue">カートに入れる</button>
                 </form>
                 <!-- </div>end item-form -->
@@ -140,17 +142,17 @@ require_once 'header.php';
         <img src="images/img07<?= $count; ?>.png" width="250px" height="200px">
             <div class="item-body">
                 <div>
-                    <?= $name; ?>唐揚げ
+                    唐揚げ
                 </div>
                 <p class="nedan">
-                    <?= $price; ?>120円
+                    120円
                 </p>
                 <!-- <div class="item-form"> -->
                 <form action="cart.php" method="POST" class="item-form">
-                    <input type="hidden" name="name" value="<?= $name; ?>">
-                    <input type="hidden" name="price" value="<?= $price; ?>">
+                    <input type="hidden" name="name" value="唐揚げ">
+                    <input type="hidden" name="price" value="120">
                     <!-- <input type="text" value="1"> -->
-                    <input type="text" class="kosuu" value="1" name="count">
+                    <input type="text" class="kosuu" value="0" name="count">
                     <button type="submit" class="btn-sm btn-blue">カートに入れる</button>
                 </form>
                 <!-- </div>end item-form -->
@@ -160,17 +162,17 @@ require_once 'header.php';
         <img src="images/img8<?= $count; ?>.png" width="250px" height="200px">
             <div class="item-body">
                 <div>
-                    <?= $name; ?>サンドウィッチ
+                    サンドウィッチ
                 </div>
                 <p class="nedan">
-                    <?= $price; ?>180円
+                    180円
                 </p>
                 <!-- <div class="item-form"> -->
                 <form action="cart.php" method="POST" class="item-form">
-                    <input type="hidden" name="name" value="<?= $name; ?>">
-                    <input type="hidden" name="price" value="<?= $price; ?>">
+                    <input type="hidden" name="name" value="サンドウィッチ">
+                    <input type="hidden" name="price" value="180">
                     <!-- <input type="text" value="1"> -->
-                    <input type="text" class="kosuu" value="1" name="count">
+                    <input type="text" class="kosuu" value="0" name="count">
                     <button type="submit" class="btn-sm btn-blue">カートに入れる</button>
                 </form>
                 <!-- </div>end item-form -->
@@ -180,17 +182,17 @@ require_once 'header.php';
         <img src="images/img9<?= $count; ?>.png" width="250px" height="200px">
             <div class="item-body">
                 <div>
-                    <?= $name; ?>ごぼうの天ぷら
+                    ごぼうの天ぷら
                 </div>
                 <p class="nedan">
-                    <?= $price; ?>120円
+                    120円
                 </p>
                 <!-- <div class="item-form"> -->
                 <form action="cart.php" method="POST" class="item-form">
-                    <input type="hidden" name="name" value="<?= $name; ?>">
-                    <input type="hidden" name="price" value="<?= $price; ?>">
+                    <input type="hidden" name="name" value="ごぼうの天ぷら">
+                    <input type="hidden" name="price" value="120">
                     <!-- <input type="text" value="1"> -->
-                    <input type="text" class="kosuu" value="1" name="count">
+                    <input type="text" class="kosuu" value="0" name="count">
                     <button type="submit" class="btn-sm btn-blue">カートに入れる</button>
                 </form>
                 <!-- </div>end item-form -->
@@ -200,17 +202,17 @@ require_once 'header.php';
         <img src="images/img10<?= $count; ?>.png" width="250px" height="200px">
             <div class="item-body">
                 <div>
-                    <?= $name; ?>フライドガーリック
+                    フライドガーリック
                 </div>
                 <p class="nedan">
-                    <?= $price; ?>12円
+                    10円
                 </p>
                 <!-- <div class="item-form"> -->
                 <form action="cart.php" method="POST" class="item-form">
-                    <input type="hidden" name="name" value="<?= $name; ?>">
-                    <input type="hidden" name="price" value="<?= $price; ?>">
+                    <input type="hidden" name="name" value="フライドガーリック">
+                    <input type="hidden" name="price" value="10">
                     <!-- <input type="text" value="1"> -->
-                    <input type="text" class="kosuu" value="1" name="count">
+                    <input type="text" class="kosuu" value="0" name="count">
                     <button type="submit" class="btn-sm btn-blue">カートに入れる</button>
                 </form>
                 <!-- </div>end item-form -->
@@ -220,17 +222,17 @@ require_once 'header.php';
         <img src="images/img11<?= $count; ?>.png" width="250px" height="200px">
             <div class="item-body">
                 <div>
-                    <?= $name; ?>つぶ焼き
+                    つぶ貝
                 </div>
                 <p class="nedan">
-                    <?= $price; ?>50円
+                    50円
                 </p>
                 <!-- <div class="item-form"> -->
                 <form action="cart.php" method="POST" class="item-form">
-                    <input type="hidden" name="name" value="<?= $name; ?>">
-                    <input type="hidden" name="price" value="<?= $price; ?>">
+                    <input type="hidden" name="name" value="つぶ貝">
+                    <input type="hidden" name="price" value="50">
                     <!-- <input type="text" value="1"> -->
-                    <input type="text" class="kosuu" value="1" name="count">
+                    <input type="text" class="kosuu" value="0" name="count">
                     <button type="submit" class="btn-sm btn-blue">カートに入れる</button>
                 </form>
                 <!-- </div>end item-form -->
@@ -240,17 +242,17 @@ require_once 'header.php';
         <img src="images/img12i<?= $count; ?>.png" width="250px" height="200px">
             <div class="item-body">
                 <div>
-                    <?= $name; ?>パンツェロッティ
+                    パンツェロッティ
                 </div>
                 <p class="nedan">
-                    <?= $price; ?>200円
+                    200円
                 </p>
                 <!-- <div class="item-form"> -->
                 <form action="cart.php" method="POST" class="item-form">
-                    <input type="hidden" name="name" value="<?= $name; ?>">
-                    <input type="hidden" name="price" value="<?= $price; ?>">
+                    <input type="hidden" name="name" value="パンツェロッティ">
+                    <input type="hidden" name="price" value="200">
                     <!-- <input type="text" value="1"> -->
-                    <input type="text" class="kosuu" value="1" name="count">
+                    <input type="text" class="kosuu" value="0" name="count">
                     <button type="submit" class="btn-sm btn-blue">カートに入れる</button>
                 </form>
                 <!-- </div>end item-form -->
@@ -260,17 +262,17 @@ require_once 'header.php';
         <img src="images/img14<?= $count; ?>.png" width="250px" height="200px">
             <div class="item-body">
                 <div>
-                    <?= $name; ?>レバニラ炒め
+                    レバニラ炒め
                 </div>
                 <p class="nedan">
-                    <?= $price; ?>300円
+                    300円
                 </p>
                 <!-- <div class="item-form"> -->
                 <form action="cart.php" method="POST" class="item-form">
-                    <input type="hidden" name="name" value="<?= $name; ?>">
-                    <input type="hidden" name="price" value="<?= $price; ?>">
+                    <input type="hidden" name="name" value="レバニラ炒め">
+                    <input type="hidden" name="price" value="300">
                     <!-- <input type="text" value="1"> -->
-                    <input type="text" class="kosuu" value="1" name="count">
+                    <input type="text" class="kosuu" value="0" name="count">
                     <button type="submit" class="btn-sm btn-blue">カートに入れる</button>
                 </form>
                 <!-- </div>end item-form -->
@@ -280,17 +282,17 @@ require_once 'header.php';
         <img src="images/img15<?= $count; ?>.png" width="250px" height="200px">
             <div class="item-body">
                 <div>
-                    <?= $name; ?>温玉揚げ
+                    温玉揚げ
                 </div>
                 <p class="nedan">
-                    <?= $price; ?>150円
+                    50円
                 </p>
                 <!-- <div class="item-form"> -->
                 <form action="cart.php" method="POST" class="item-form">
-                    <input type="hidden" name="name" value="<?= $name; ?>">
-                    <input type="hidden" name="price" value="<?= $price; ?>">
+                    <input type="hidden" name="name" value="温玉揚げ">
+                    <input type="hidden" name="price" value="50">
                     <!-- <input type="text" value="1"> -->
-                    <input type="text" class="kosuu" value="1" name="count">
+                    <input type="text" class="kosuu" value="0" name="count">
                     <button type="submit" class="btn-sm btn-blue">カートに入れる</button>
                 </form>
                 <!-- </div>end item-form -->
@@ -300,17 +302,17 @@ require_once 'header.php';
         <img src="images/img16<?= $count; ?>.png" width="250px" height="200px">
             <div class="item-body">
                 <div>
-                    <?= $name; ?>すが立った茶碗蒸し
+                    茶碗蒸し
                 </div>
                 <p class="nedan">
-                    <?= $price; ?>180円
+                    180円
                 </p>
                 <!-- <div class="item-form"> -->
                 <form action="cart.php" method="POST" class="item-form">
-                    <input type="hidden" name="name" value="<?= $name; ?>">
-                    <input type="hidden" name="price" value="<?= $price; ?>">
+                    <input type="hidden" name="name" value="茶碗蒸し">
+                    <input type="hidden" name="price" value="180">
                     <!-- <input type="text" value="1"> -->
-                    <input type="text" class="kosuu" value="1" name="count">
+                    <input type="text" class="kosuu" value="0" name="count">
                     <button type="submit" class="btn-sm btn-blue">カートに入れる</button>
                 </form>
                 <!-- </div>end item-form -->
@@ -320,17 +322,17 @@ require_once 'header.php';
         <img src="images/img18<?= $count; ?>.png" width="250px" height="200px">
             <div class="item-body">
                 <div>
-                    <?= $name; ?>鯖の棒寿司
+                    鯖寿司
                 </div>
                 <p class="nedan">
-                    <?= $price; ?>120円
+                    120円
                 </p>
                 <!-- <div class="item-form"> -->
                 <form action="cart.php" method="POST" class="item-form">
-                    <input type="hidden" name="name" value="<?= $name; ?>">
-                    <input type="hidden" name="price" value="<?= $price; ?>">
+                    <input type="hidden" name="name" value="鯖寿司">
+                    <input type="hidden" name="price" value="120">
                     <!-- <input type="text" value="1"> -->
-                    <input type="text" class="kosuu" value="1" name="count">
+                    <input type="text" class="kosuu" value="0" name="count">
                     <button type="submit" class="btn-sm btn-blue">カートに入れる</button>
                 </form>
                 <!-- </div>end item-form -->

@@ -3,7 +3,7 @@
     <div class="adress-map">
         <div class_alias="Business-dya" style="margin-bottom: 5vw;">
             <dl>
-                <dt><strong>営 業 日</strong></dt>
+                <dt><strong class="dya1">営 業 日</strong></dt>
                 <dd>
                     <p class="dya"><span>営業時間: 9時〜20時</span></p>
                     <p>※木曜日は休み、月曜日は14時までの営業</p>
