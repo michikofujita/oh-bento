@@ -24,6 +24,7 @@
           是非、お買い求めください。</p>
         </div>
       </div>
+
     </div>
     
     <div class="flex2">
