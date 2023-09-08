@@ -125,8 +125,10 @@ foreach ($products as $name => $product) {
                     </tbody>
                 </table>
             </div>
-            <p class="addition"><a href="product.php" style="text-decoration:none;">追加で選ぶ</a></p>
-            
+            <div class="book" style="margin-top: 5%;">
+                <a href="product.php" style="text-decoration:none;">   
+                <button class="cash" onclick="location.href='kanryou.php'">確認画面へ</button>
+            </div>
         </div>
 
 
