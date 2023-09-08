@@ -178,7 +178,7 @@ foreach ($products as $name => $product) {
 <!-- <p><label>備考(※ご意見ある方は入力してください)<br>
                     <textarea name="comment"></textarea></label></p>
             </p> -->
-            <div class="book" style="margin-top: 50px;">
+            <div class="book" style="margin-top: 5%;">
             <button class="cash" onclick="location.href='kanryou.php'">購入確定</button>
             </div>
         </form>
