@@ -167,12 +167,18 @@
 
 }
 @media screen and (max-width: 450px) {
+
   #product h1 {
-    font-size: 40px;
-    padding-top: 0;
+    font-size: 30px;
+    margin-top: -40px;
   }
   #product p {
-    margin: 35px;
+    font-size: 0.48em;
   }
-
+  #product .shop {
+    margin-bottom: 20vw;
+  }
+  #product input.kosuu{
+    width: 80px;
+  }
 }
