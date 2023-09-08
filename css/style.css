@@ -145,8 +145,15 @@
 }
 
 @media screen and (max-width: 450px) {
-  input[type="text"] {
-    width: 50px; 
+  #product h1 {
+    font-size: 40px;
+    padding-top: 0;
+  }
+  #product p {
+    font-size: 20px;
+    /* padding-top: 1em; */
+    /* padding-bottom: 2em; */
+    margin: 35px;
   }
 
 }
