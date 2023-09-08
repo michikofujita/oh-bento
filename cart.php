@@ -64,13 +64,13 @@ foreach ($products as $name => $product) {
 
 ?>
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="ja">
 
 <body id="concept">
     <header id="top">
         <h1>最終確認画面</h1>
-    </header>
+    </header> -->
 
     <main>
         <div class="wrapper last-wrapper">
@@ -125,7 +125,10 @@ foreach ($products as $name => $product) {
                     </tbody>
                 </table>
             </div>
+            <p id="addition"><a href="product.php">追加で選ぶ</a></p>
+            </a>
         </div>
+
 
         <ul class="confirm">
             <li>下記、必要事項を記入し、決済手続きにお進みください。<br>
@@ -172,16 +175,16 @@ foreach ($products as $name => $product) {
 
   <!-- 他の商品のオプションを追加 -->
 </select>
-<p><label>備考(※ご意見ある方は入力してください)<br>
+<!-- <p><label>備考(※ご意見ある方は入力してください)<br>
                     <textarea name="comment"></textarea></label></p>
             </p>
             <div class="book" style="margin-top: 50px;">
             <button class="cash" onclick="location.href='kanryou.php'">購入確定</button>
             </div>
-        </form>
+        </form> -->
 
     </main>
-    <footer>
+    <!-- <footer>
         <p id="pagetop"><a href="#top">ページの先頭へ戻る</a></p>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -196,7 +199,7 @@ foreach ($products as $name => $product) {
     </script>
 </body>
 
-</html>
+</html> -->
 
 <?php require 'address.php'; ?>
 <?php require 'footer.php'; ?>
