@@ -2,7 +2,6 @@
 <?php require 'menu.php'; ?>
 
    <!-- 商品 -->
- <?php require 'product.php'; ?>
 <main id="top">
 
   <h1>自分好みのお弁当を作ろう！！</h1>
