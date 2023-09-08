@@ -17,12 +17,13 @@
   list-style: none;
   font-size: 1.2vw;
   justify-content: center;
-  /* padding-left: 160px; */
   gap: 7%;
 }
 #product p {
-  text-align: right;
-  margin: 10px auto 0 auto;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 2em;
+  padding-bottom: 3em;
 }
 #product p.nedan {
   font-size: 0.8em;
@@ -31,13 +32,15 @@
 }
 #product .item-body {
   font-size: 2vw;
+  margin-top: 20px;
 }
+
 #product element.style {
   font-weight: bold;
 }
 #product .shop {
   width: 20%;
-  margin-bottom: 5vw;
+  margin-bottom: 10vw;
   text-align: center;
 }
 #product h1 {
@@ -50,11 +53,8 @@
   text-decoration-color: #3cb371
 
 }
-#product p {
-  text-align: center;
-  font-weight: bold;
-  padding-top: 1em;
-  padding-bottom: 2em;
+#product p.nedan {
+  padding-bottom: 1em;
 }
 
 #cash {
@@ -120,7 +120,7 @@
 	color: #000000;
 }
 
-.nowrap button {
+#cash .nowrap button {
 	margin: 0;
 }
 
@@ -140,19 +140,38 @@
 
   /* productのレスポンシブの調整用 */
 @media screen and (max-width: 999px) {
-
+  #product p {
+    margin: 0;
+    font-size: 18px;
+  }
+  #product .shop {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 650px) {
+  #product h1 {
+    font-size: 35px;
+    padding-top: 0;
+    margin-top: -30px;
+  }
+  #product p {
+    font-size: 0.55em;
+    margin: 0 10px;
+  }
+  #product input.kosuu{
+    width: 100px;
+  }
+  #product .shop {
+    width: 25%;
+  }
 
 }
-
 @media screen and (max-width: 450px) {
   #product h1 {
     font-size: 40px;
     padding-top: 0;
   }
   #product p {
-    font-size: 20px;
-    /* padding-top: 1em; */
-    /* padding-bottom: 2em; */
     margin: 35px;
   }
 
