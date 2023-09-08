@@ -22,7 +22,10 @@
         <p class="newsLost_title">本日よりOH!弁当屋のサイトをOPENしました。
       </article>
     </div>
-
+    <div class="flex1">
+    <img src="images/phone.png" alt="電話" class="news">
+    <img src="images/mail.png" alt="メール" class="news">
+    </div>
   </div>
 </main>
 
