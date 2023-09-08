@@ -125,7 +125,7 @@ foreach ($products as $name => $product) {
                     </tbody>
                 </table>
             </div>
-            <p class="addition"><a href="product.php">追加で選ぶ</a></p>
+            <p class="addition"><a href="product.php" style="text-decoration:none;">追加で選ぶ</a></p>
             
         </div>
 
