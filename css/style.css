@@ -15,8 +15,9 @@
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  /* justify-content: space-between; */
-  padding-left: 160px;
+  font-size: 1.2vw;
+  justify-content: center;
+  /* padding-left: 160px; */
   gap: 7%;
 }
 #product p {
@@ -29,13 +30,15 @@
   text-align: right;
 }
 #product .item-body {
-  font-size: 22px;
+  font-size: 2vw;
 }
 #product element.style {
   font-weight: bold;
 }
 #product .shop {
-  width: 18%;
+  width: 20%;
+  margin-bottom: 5vw;
+  text-align: center;
 }
 #product h1 {
   text-align: center;
@@ -86,33 +89,33 @@
 } */ 
 
 /* cart */
-.nowrap {
+#cash .nowrap {
 	width: 70%;
 	border-collapse: collapse;
 	margin: auto;
 }
 
-.nowrap tr {
+#cash .nowrap tr {
 	text-align: center;
 }
 
-thead {
+#cash thead {
 	border-collapse:separate;
 }
 
-.text-right {
+#cash .text-right {
 	text-align: right;
 }
 
-.nowrap th,
-.nowrap td {
+#cash .nowrap th,
+#cash .nowrap td {
 	border: 1px solid #000000;
 	vertical-align: middle;
 	padding: 5px 10px;
 	text-align: center;
 }
 
-.nowrap th {
+#cash .nowrap th {
 	background-color: #f4df85;
 	color: #000000;
 }
@@ -121,21 +124,29 @@ thead {
 	margin: 0;
 }
 
-.total td {
+#cash .total td {
 	text-align: center;
 }
 
-.nowrap-btn {
+#cash.nowrap-btn {
 	text-align: center;
 }
 
-.cart-btn {
+#cash.cart-btn {
 	text-align: center;
 } 
 
-@media screen and (max-width: 640px) {
-  /* nav {
-    display: block;
-  } */
-  /* レスポンシブの調整用 */
+
+
+  /* productのレスポンシブの調整用 */
+@media screen and (max-width: 999px) {
+
+
+}
+
+@media screen and (max-width: 450px) {
+  input[type="text"] {
+    width: 50px; 
+  }
+
 }

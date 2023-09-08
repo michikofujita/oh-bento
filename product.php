@@ -17,7 +17,7 @@ require_once 'header.php';
     <p>下記より、お好きな商品の数量を入力してカートに入れてください。</p>
     <ul class="flex">
             <li class="shop">
-            <img src="images/img02<?= $count; ?>.png" width="250px" height="200px">
+            <img src="images/img02<?= $count; ?>.png"  width="60%" height="55%">
             <div class="item-body">
                 <div>
                     特大エビフライ
@@ -38,7 +38,7 @@ require_once 'header.php';
             </div><!-- end item-body-->
         </li>
         <li class="shop">
-        <img src="images/img03<?= $count; ?>.png" width="250px" height="200px">
+        <img src="images/img03<?= $count; ?>.png"  width="60%" height="55%">
             <div class="item-body">
                 <div>
                     コールスローサラダ
@@ -58,7 +58,7 @@ require_once 'header.php';
             </div><!-- end item-body-->
         </li>
         <li class="shop">
-        <img src="images/img04<?= $count; ?>.png" width="250px" height="200px">
+        <img src="images/img04<?= $count; ?>.png"  width="60%" height="55%">
             <div class="item-body">
                 <div>
                     アスパラベーコン巻き
@@ -78,7 +78,7 @@ require_once 'header.php';
             </div><!-- end item-body-->
         </li>
         <li class="shop">
-        <img src="images/img05<?= $count; ?>.png" width="250px" height="200px">
+        <img src="images/img05<?= $count; ?>.png"  width="60%" height="55%">
             <div class="item-body">
                 <div>
                     白ご飯
@@ -98,7 +98,7 @@ require_once 'header.php';
             </div><!-- end item-body-->
         </li>
         <li class="shop">
-        <img src="images/img06<?= $count; ?>.png" width="250px" height="200px">
+        <img src="images/img06<?= $count; ?>.png"  width="60%" height="55%">
             <div class="item-body">
                 <div>
                     カニクリームコロッケ
@@ -118,7 +118,7 @@ require_once 'header.php';
             </div><!-- end item-body-->
         </li>
         <li class="shop">
-        <img src="images/img07<?= $count; ?>.png" width="250px" height="200px">
+        <img src="images/img07<?= $count; ?>.png"  width="60%" height="55%">
             <div class="item-body">
                 <div>
                     唐揚げ
@@ -138,7 +138,7 @@ require_once 'header.php';
             </div><!-- end item-body-->
         </li>
         <li class="shop">
-        <img src="images/img8<?= $count; ?>.png" width="250px" height="200px">
+        <img src="images/img8<?= $count; ?>.png"  width="60%" height="55%">
             <div class="item-body">
                 <div>
                     サンドウィッチ
@@ -158,7 +158,7 @@ require_once 'header.php';
             </div><!-- end item-body-->
         </li>
         <li class="shop">
-        <img src="images/img9<?= $count; ?>.png" width="250px" height="200px">
+        <img src="images/img9<?= $count; ?>.png"  width="60%" height="55%">
             <div class="item-body">
                 <div>
                     ごぼうの天ぷら
@@ -178,7 +178,7 @@ require_once 'header.php';
             </div><!-- end item-body-->
         </li>
         <li class="shop">
-        <img src="images/img10<?= $count; ?>.png" width="250px" height="200px">
+        <img src="images/img10<?= $count; ?>.png"  width="60%" height="55%">
             <div class="item-body">
                 <div>
                     フライドガーリック
@@ -198,7 +198,7 @@ require_once 'header.php';
             </div><!-- end item-body-->
         </li>
         <li class="shop">
-        <img src="images/img11<?= $count; ?>.png" width="250px" height="200px">
+        <img src="images/img11<?= $count; ?>.png"  width="60%" height="55%">
             <div class="item-body">
                 <div>
                     つぶ貝
@@ -218,7 +218,7 @@ require_once 'header.php';
             </div><!-- end item-body-->
         </li>
         <li class="shop">
-        <img src="images/img12i<?= $count; ?>.png" width="250px" height="200px">
+        <img src="images/img12i<?= $count; ?>.png"  width="60%" height="55%">
             <div class="item-body">
                 <div>
                     パンツェロッティ
@@ -238,7 +238,7 @@ require_once 'header.php';
             </div><!-- end item-body-->
         </li>
         <li class="shop">
-        <img src="images/img14<?= $count; ?>.png" width="250px" height="200px">
+        <img src="images/img14<?= $count; ?>.png"  width="60%" height="55%">
             <div class="item-body">
                 <div>
                     レバニラ炒め
@@ -258,7 +258,7 @@ require_once 'header.php';
             </div><!-- end item-body-->
         </li>
         <li class="shop">
-        <img src="images/img15<?= $count; ?>.png" width="250px" height="200px">
+        <img src="images/img15<?= $count; ?>.png"  width="60%" height="55%">
             <div class="item-body">
                 <div>
                     温玉揚げ
@@ -278,7 +278,7 @@ require_once 'header.php';
             </div><!-- end item-body-->
         </li>
         <li class="shop">
-        <img src="images/img16<?= $count; ?>.png" width="250px" height="200px">
+        <img src="images/img16<?= $count; ?>.png"  width="60%" height="55%">
             <div class="item-body">
                 <div>
                     茶碗蒸し
@@ -298,7 +298,7 @@ require_once 'header.php';
             </div><!-- end item-body-->
         </li>
         <li class="shop">
-        <img src="images/img18<?= $count; ?>.png" width="250px" height="200px">
+        <img src="images/img18<?= $count; ?>.png"  width="60%" height="55%">
             <div class="item-body">
                 <div>
                     鯖寿司
