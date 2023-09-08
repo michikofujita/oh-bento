@@ -72,7 +72,7 @@ foreach ($products as $name => $product) {
         <h1>最終確認画面</h1>
     </header> -->
 
-    <main>
+    <main id="cart">
         <div class="wrapper last-wrapper">
             <div class="cartlist">
                 <table class="nowrap">
@@ -125,8 +125,8 @@ foreach ($products as $name => $product) {
                     </tbody>
                 </table>
             </div>
-            <p id="addition"><a href="product.php">追加で選ぶ</a></p>
-            </a>
+            <p class="addition"><a href="product.php">追加で選ぶ</a></p>
+            
         </div>
 
 
@@ -177,11 +177,11 @@ foreach ($products as $name => $product) {
 </select>
 <!-- <p><label>備考(※ご意見ある方は入力してください)<br>
                     <textarea name="comment"></textarea></label></p>
-            </p>
+            </p> -->
             <div class="book" style="margin-top: 50px;">
             <button class="cash" onclick="location.href='kanryou.php'">購入確定</button>
             </div>
-        </form> -->
+        </form>
 
     </main>
     <!-- <footer>
