@@ -127,7 +127,7 @@ foreach ($products as $name => $product) {
             </div>
             <div class="book" style="margin-top: 5%;">
                 <a href="product.php" style="text-decoration:none;">   
-                <button class="cash" onclick="location.href='kanryou.php'">確認画面へ</button>
+                <button class="cash" onclick="location.href='kanryou.php'">おかずを追加する</button></a>
             </div>
         </div>
 
